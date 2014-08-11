@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+		    <FrameLayout
+		         xmlns:android="http://schemas.android.com/apk/res/android"
+								        android:layout_width="wrap_content"
+								        android:layout_height="170dp" 
+								        android:layout_gravity="bottom"
+								        >
+							
+								        <ImageView
+								            android:id="@+id/dewdrop5"
+								            android:layout_width="match_parent"
+								             android:layout_height="50dp"
+								             android:layout_gravity="top"
+								             android:alpha="0.8"
+								            android:src="@drawable/cloudy_cloud5" />
+								     
+							
+								        <ImageView
+								            android:id="@+id/dewdrop2"
+								            android:layout_width="match_parent"
+								             android:layout_height="130dp"
+								              android:layout_gravity="bottom"
+								            android:background="@drawable/cloudy_cloud2" />
+
+								        <ImageView
+								            android:id="@+id/dewdrop1"
+								            android:layout_width="match_parent"
+								            android:layout_height="100dp"
+								            android:layout_gravity="bottom"
+								            android:layout_marginBottom="1dp"
+								            android:background="@drawable/cloudy_cloud1" />
+								    </FrameLayout>

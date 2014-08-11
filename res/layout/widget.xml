@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@drawable/widget_classic_bg"
+   
+    android:orientation="horizontal" >
+
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center_vertical"
+	    android:layout_weight="4.94"
+	    android:orientation="horizontal"
+	    android:paddingLeft="10dp"
+	    android:paddingTop="15dp"
+	    android:paddingBottom="15dp"
+	     >
+
+		<include
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    layout="@layout/widget_time" />
+
+    	  <TextView 
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="10dp"
+	        android:layout_width="1dp"
+	        android:background="#99999999"
+	        />
+
+    	  <include
+    	      android:layout_width="match_parent"
+    	      android:layout_height="match_parent"
+    	      android:layout_marginLeft="2dp"
+    	      layout="@layout/widget_temp" />
+
+	</LinearLayout>
+	
+	
+ 
+     
+       
+    <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.0" 
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+               	android:layout_gravity="right"
+               	android:scaleType="center"
+                android:background="@drawable/widget_classic_1x1_pannel" />
+              <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+               	android:layout_gravity="right"
+               	android:layout_marginTop="5dp"
+                android:background="@drawable/wic_cloudy_d" />
+             <!--  <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+               	android:layout_gravity="center|bottom"
+               	android:layout_marginBottom="2dp"
+                android:background="@drawable/ab_ic_location" /> -->
+        </FrameLayout>
+</LinearLayout>
